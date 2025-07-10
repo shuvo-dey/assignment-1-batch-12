@@ -83,11 +83,14 @@ nav li a{
 /* Banner Section */
 
 .banner{
+    max-height: 698px;
+    max-width: 100%;
     text-align: center;
     padding-bottom: 152px;
 }
 
 .banner h1{
+
     font-family: "Raleway", sans-serif;
     font-size: 65px;
     font-weight: bold;
@@ -215,7 +218,7 @@ nav li a{
     max-height: 697px;
     padding: 60px 71px;
     margin: 137px 149px 40px 142px;
-    /* border-radius: 24px; */
+ 
     border-radius: 14px;
     background-color: white;
     text-align: center;
@@ -338,8 +341,7 @@ opacity: 50%;
 .footer-section{
    max-width: 532PX;
    max-height:221px ;
-   /* margin: 104px 455px 103px 454px; */
-   padding: 104px 455px 103px 454px;
+    padding: 104px 455px 103px 454px;
 
 }
 
@@ -364,4 +366,10 @@ opacity: 50%;
     justify-content: space-around;
     font-size: 16;
     color: #8987A1;
+}
+
+.footer-links a{
+    text-decoration: none;
+    text-decoration-color: white;
+    color: inherit;
 }
