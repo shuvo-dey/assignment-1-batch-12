@@ -44,6 +44,7 @@ nav h1{
     color: #FFFFFF;
     border: none;
     border-radius: 5px;
+    cursor:pointer;
 }
 
 nav ul li{
@@ -77,6 +78,7 @@ nav li a{
     color: #FFFFFF;
     border: none;
     border-radius: 5px;
+    cursor:pointer;
 }
 
 
@@ -118,7 +120,7 @@ nav li a{
 }
 
 
-.btn-2{
+.btn-3{
     font-size: 16px;
     font-weight: bold;
     color: #FFFFFF;
@@ -126,4 +128,55 @@ nav li a{
     width: 229px;
     height: 48px;
     border-radius: 10px;
+    border: none;
+    margin-top: 28px;
+    cursor:pointer;
+}
+
+/* Productive Users Section */
+
+.productive-section{
+    background-color: rgb(78, 71, 250, 10%);
+    max-width: 1140px;
+    max-height: 306px;
+    margin: 116px 159px 116px 140px;
+    padding: 80px 50px;
+    border-radius: 24px;
+    
+}
+
+.productive-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+    margin: 0px 142px 40px 142px;
+}
+
+.all-data{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.all-data{
+    margin: 30px 142px 0px 142px;
+
+}
+
+.data-3{
+    margin-top: 42px;
+}
+
+.data{
+        font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+    
+
+}
+
+.data-subtitle{
+    font-size: 20px;
+    opacity: 20%;
 }
