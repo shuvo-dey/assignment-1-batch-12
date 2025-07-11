@@ -32,7 +32,7 @@ body{
     background-image: url("../Assets/Hero-bg.png");
     background-repeat: no-repeat;
     max-height: 698px;
-    max-width: 100%;
+    max-width: 1440px;
 }
 
 
@@ -49,24 +49,31 @@ nav ul{
     padding: 50px 0px;
 }
 
-nav h1{
+/* nav h1{
     font-family: "Open Sans", sans-serif;
     font-size: 34px;
     font-weight: bold;
     color: #4E47FF;
     letter-spacing: -0.1em;
+} */
+.site-logo{
+    height: 40px;
+    display: block;
+    width: auto;
+    border-radius: 10px;
 }
+
 .btn-1{
-    width: 132px;
-    height: 48px;
+    width: 80px;
+    height: 39px;
     background-color: #4E47FF;
     color: #FFFFFF;
     border: none;
     border-radius: 10px;
     cursor:pointer;
     font-family: "Raleway", sans-serif;
-    font-weight: bold;
-    font-size: large;
+    font-weight: 600;
+    font-size:medium;
 }
 
 nav ul li{
@@ -326,7 +333,7 @@ opacity: 50%;
     border: none;
     border-radius: 10px;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin: 30px 0px;
     font-family: "Raleway", sans-serif;
     font-weight: bold;
     font-size: large;
@@ -356,41 +363,50 @@ opacity: 50%;
     font-size: 80px;
     font-weight: bold;
     color: black;
-    padding-bottom: 10px;
+    line-height: 1.1;
 }
 
-.let-section{
-    width: 528px;
-    height: 232px;
+.let-section {
+    flex: 1;
+    min-width: 300px;
 }
-.touch-section{
-    width: 497px;
-    height: 290px;
-    padding: 71px 0px;
+
+.touch-section {
+    flex: 1; 
+    min-width: 300px; 
+    padding: 71px 0px 71px 0px;
     margin-top: 71px;
 }
 
-
-.touch-section label{
+.touch-section label {
     font-size: 18px;
     font-weight: bold;
+    display: block; 
+    margin-bottom: 8px;
 }
 
-.form-box{
+
+.form-box {
     height: 24px;
     border-radius: 10px;
-    background-color: #000000 50%;
+    background-color: rgba(0, 0, 0, 0.05);
     display: block;
-    width: 93%;
+    width: 93%; 
     border: none;
-    font-size: 12px;
+    font-size: 16px;
     padding: 20px 0px 20px 32px;
     margin-bottom: 24px;
+    outline: none;
 }
 
+textarea.form-box {
+    height: 120px; 
+    resize: vertical;
+}
 .btn-4{
     margin-top: 37px;
-    width: 497px;
+    width: 100%;
+    max-width: 497px;
     height: 62px;
     background-color: #4E47FF;
     color: #FFFFFF;
@@ -415,7 +431,7 @@ opacity: 50%;
     max-width: 1440px;
     max-height: 428px;
     background-color: #ffffff;
-    margin: 0 auto;
+    /* margin: 0 auto; */
    
 
 }
@@ -453,4 +469,22 @@ opacity: 50%;
     text-decoration: none;
     text-decoration-color: white;
     color: inherit;
+}
+
+.footer-site-logo{
+
+    height: 50px;
+    display: block;
+    width: auto;
+    border-radius: 10px;
+    margin: 0 auto 10px auto;
+}
+
+.copyright-text {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px; 
+    font-size: 14px;
+    color: #3c3b46;
+    text-align: center; 
 }
